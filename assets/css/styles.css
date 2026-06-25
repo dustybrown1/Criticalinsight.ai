@@ -603,11 +603,14 @@ p { color: var(--text-secondary); }
 }
 
 .cognos-hero__lockup {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
   margin-bottom: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .cognos-hero__lockup h1 {
