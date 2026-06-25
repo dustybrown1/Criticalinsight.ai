@@ -972,7 +972,7 @@ p { color: var(--text-secondary); }
   width: auto;
   display: inline-block;
   vertical-align: middle;
-  margin: 8px 8px 0;
+  margin: 8px 2px 0;
   filter: drop-shadow(0 0 16px rgba(59, 158, 255, 0.3));
 }
 
