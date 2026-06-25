@@ -1048,3 +1048,11 @@ p { color: var(--text-secondary); }
 .logo-title-row h1 {
     margin: 0;
 }
+.big-title {
+    font-size: 6rem; /* match your hero title size */
+    line-height: 1;
+    margin: 0;
+    background: linear-gradient(90deg, #4da6ff, #8a5cff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
