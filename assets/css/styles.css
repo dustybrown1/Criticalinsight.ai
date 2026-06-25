@@ -602,30 +602,6 @@ p { color: var(--text-secondary); }
   pointer-events: none;
 }
 
-.cognos-hero__lockup {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  margin-bottom: 20px;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.cognos-hero__lockup h1 {
-  margin: 0;
-  font-size: clamp(2.8rem, 6vw, 5rem);
-}
-
-.cognos-hero__logo {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
-  flex-shrink: 0;
-  filter: drop-shadow(0 0 20px rgba(59, 158, 255, 0.4));
-}
-
 .cognos-hero__badge {
   display: inline-block;
   font-size: 0.72rem;
